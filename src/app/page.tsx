@@ -9,7 +9,7 @@ import HeroCentered from '@/components/sections/hero/HeroCentered';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
-import { Fish, Heart, Sun, Users, Utensils, Waves } from "lucide-react";
+import { Fish, Heart, Sun, Users, Utensils, Waves, Clock } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -26,6 +26,10 @@ export default function LandingPage() {
         headingFontWeight="extrabold"
     >
       <ReactLenis root>
+  <div id="limited-offer" data-section="limited-offer" className="bg-primary-cta text-primary-cta-text py-3 text-center font-medium">
+    Limited Time Offer: Get 20% off our signature Seafood Platter or traditional Rice & Curry this week only!
+  </div>
+
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
