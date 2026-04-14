@@ -9,7 +9,7 @@ import HeroCentered from '@/components/sections/hero/HeroCentered';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
-import { Fish, Heart, Sun, Users, Utensils, Waves, Clock } from "lucide-react";
+import { Fish, Heart, Sun, Users, Utensils, Waves } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -27,7 +27,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="limited-offer" data-section="limited-offer" className="bg-primary-cta text-primary-cta-text py-3 text-center font-medium">
-    Limited Time Offer: Get 20% off our signature Seafood Platter or traditional Rice & Curry this week only!
+    ANNOUNCEMENT: Jude's Coastal Kitchen is now open for private sunset events! Contact us today to secure your booking.
   </div>
 
   <div id="nav" data-section="nav">
@@ -45,7 +45,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroCentered
-      background={{ variant: "radial-gradient" }}
+      background={{ variant: "sparkles-gradient" }}
       title="Fresh Seafood & Sunset Views at Jude's Coastal Kitchen"
       description="Experience the authentic taste of the Indian Ocean from our famous second-floor balcony."
       avatars={[
@@ -120,7 +120,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{ variant: "rotated-rays-animated-grid" }}
+      background={{ variant: "sparkles-gradient" }}
       text="Visit us at 100/11 B, Beach Rd, Negombo. We are open daily from 10:00 AM – 10:00 PM. Call +94 77 714 5823 to book your table."
       buttons={[{ text: "Call Now", href: "tel:+94777145823" }]}
     />
